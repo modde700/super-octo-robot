@@ -8,7 +8,12 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: EASTester
+      - ContentView.swift
+      - EASEvent.swift
+      - EASTesterApp.swift
+      - NotificationManager.swift
+      - ToneGenerator.swift
+      - attention.wav
     scheme: {}
     settings:
       base:
